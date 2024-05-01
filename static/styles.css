@@ -10,14 +10,24 @@ body {
 }
 
 .container {
+  padding: 20px;
+  width: 90%; /* Set container width */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.vocabulary-builder-container {
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  max-width: 800px; /* Limit container width */
-  width: 90%; /* Set container width */
+  width: 80%; /* Set container width */
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-
 .question-container {
   font-size: 1.2em;
   margin-bottom: 20px;
@@ -96,5 +106,25 @@ body {
     max-width: 50%; /* Set image width to 50% of screen for smaller devices */
     margin-bottom: 10px;
   }
+}
+
+
+/* stages container */
+#stages-container {
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  align-items: center;
+  flex-wrap: wrap; /* Allow stages to wrap to the next line if necessary */
+  margin-bottom: 20px; /* Add some space below the stages container */
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 70%;
+  margin-bottom: 20px; /* Add margin between stages container and question container */
+}
+
+/* Style the stage buttons */
+.stage {
+  margin: 10px; /* Add margin around each stage button */
 }
 

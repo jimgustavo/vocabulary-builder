@@ -1,4 +1,4 @@
-module vocabulary-builder-with-picture
+module vocabulary-builder-stages-API-integrated
 
 go 1.19
 
